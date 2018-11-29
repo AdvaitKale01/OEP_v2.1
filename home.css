@@ -1,0 +1,118 @@
+#header {
+    height: 300px;
+    color:white;
+    background-image:url(bg/header1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Shift', sans-serif;
+}
+#header h2 {    
+    font-size: 4em;
+    position: relative;
+    top: 60px;
+    left: 200px;
+    display: inline;
+    text-align:center;
+}
+#header p {
+    margin:0px;
+    padding:0px;
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+    left: -350px;
+    display: inline;
+}  
+#c1 {
+    margin:0px;
+    padding:50px;
+    height: 500px;
+    color:white;
+    font-size:68px;
+    text-align:center;
+    background-image:url(bg/center2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Shift', sans-serif;
+    display:block;
+}  
+#quote {
+    font-family: 'Shift', sans-serif;
+    font-size:32px;
+    color:white;
+    background-color:#333;
+    padding:30px;
+    padding-bottom:0.5em;
+    margin:0px;
+}
+#auth {
+    font-family: 'Shift', sans-serif;
+    font-size:16px;
+    color:white;
+    background-color:#333;
+    text-align:right;
+    margin:0px;
+    padding-right:5em;
+    padding-bottom:10px;
+}
+#credits {
+    font-family: 'Shift', sans-serif;
+    font-size:14px;
+    color:white;
+    background-color:#333;
+    padding:10px;
+    padding-bottom:0.5em;
+    margin:0px;
+}
+#footer {
+    height: 100px;
+    color:white;
+    background-color:#333;
+    background-size: cover;
+    font-family: 'Shift', sans-serif;
+
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size:32px;
+}
+
+.dropdown-content a:hover {
+    background-color: #333;
+    color:white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

@@ -1,0 +1,93 @@
+#header {
+    height: 300px;
+    color:white;
+    background-image:url(bg/header1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Shift', sans-serif;
+}
+#header h2 {    
+    font-size: 4em;
+    position: relative;
+    top: 60px;
+    left: 200px;
+    display: inline;
+    text-align:center;
+}
+#header p {
+    margin:0px;
+    padding:0px;
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+    left: -350px;
+    display: inline;
+}  
+#c1 {
+    margin:0px;
+    padding:50px;
+    height: 900px;
+    color:white;
+    font-size:68px;
+    text-align:center;
+    background-image:url(bg/center2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Shift', sans-serif;
+    display:block;
+}  
+#quote {
+    font-family: 'Shift', sans-serif;
+    font-size:32px;
+    color:white;
+    background-color:#333;
+    padding:30px;
+    padding-bottom:0.5em;
+    margin:0px;
+}
+#auth {
+    font-family: 'Shift', sans-serif;
+    font-size:16px;
+    color:white;
+    background-color:#333;
+    text-align:right;
+    margin:0px;
+    padding-right:5em;
+    padding-bottom:10px;
+}
+#credits {
+    font-family: 'Shift', sans-serif;
+    font-size:14px;
+    color:white;
+    background-color:#333;
+    padding:10px;
+    padding-bottom:0.5em;
+    margin:0px;
+}
+#footer {
+    height: 100px;
+    color:white;
+    background-color:#333;
+    background-size: cover;
+    font-family: 'Shift', sans-serif;
+
+}
+#heading {
+    height: 600px;
+    color:#333;
+    font-size:32px;
+    font-family: 'Shift', sans-serif;
+}
+#head2 {
+    text-align: center;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    margin-left: 50%;
+    border: none;
+    cursor: pointer;
+}

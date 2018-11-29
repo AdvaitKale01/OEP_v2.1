@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+#main {
+    margin-left:20%;
+    padding:1px 16px;
+    height:1000px;
+}
+
+#qm {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    text-align: center;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+#qm li {
+	   display:inline;
+}
+
+#qm li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#qm li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#qm li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+table, tr, td {
+	padding: 20px;
+}
+.but {
+    background-color: #4CAF50;
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 10%;
+    border: none;
+    cursor: pointer;
+}
